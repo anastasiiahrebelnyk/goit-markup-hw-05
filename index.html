@@ -482,7 +482,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="modal-close-button">
           <svg class="close-button" width="8" height="8">
@@ -500,7 +500,7 @@
                 name="user-name"
                 id="user-name"
               />
-              <svg class="input-icon" width="12" height="12">
+              <svg class="input-icon" width="18" height="18">
                 <use href="./images/icons.svg#icon-user-name"></use>
               </svg>
             </div>
@@ -514,7 +514,7 @@
                 name="user-phone"
                 id="user-phone"
               />
-              <svg class="input-icon" width="12" height="12">
+              <svg class="input-icon" width="18" height="18">
                 <use href="./images/icons.svg#icon-user-tel"></use>
               </svg>
             </div>
@@ -528,13 +528,17 @@
                 id="user-email"
                 name="user-email"
               />
-              <svg class="input-icon" width="12" height="12">
+              <svg class="input-icon" width="18" height="18">
                 <use href="./images/icons.svg#icon-user-email"></use>
               </svg>
             </div>
           </div>
           <div class="modal-field">
-            <label for="text-area" class="modal-text-area-label">Comment</label>
+            <label
+              for="user-text"
+              class="modal-text-area-label modal-label-input"
+              >Comment</label
+            >
             <textarea
               name="user-text"
               id="user-text"
@@ -548,17 +552,19 @@
               name="policy"
               id="policy"
               value="accepted"
-              class="modal-check"
+              class="modal-check visually-hidden"
             />
-            <label for="checkbox" class="modal-check-label">
+            <label for="policy" class="modal-check-label">
               <span class="modal-check-box">
-                <svg class="check icon" width="16" height="16">
+                <svg class="check-icon" width="16" height="16">
                   <use href="./images/icons.svg#icon-check"></use>
-                </svg> </span
-              >I accept the terms and conditions of the
+                </svg>
+              </span>
+              I accept the terms and conditions of the
               <a href class="modal-policy-link">Privacy Policy</a>
             </label>
           </div>
+          <button type="submit" class="modal-send-button">Send</button>
         </form>
       </div>
     </div>
