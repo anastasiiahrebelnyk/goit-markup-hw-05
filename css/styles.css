@@ -807,6 +807,10 @@ background-color: #404BBF;
 
 }
 
+.modal-field-comment {
+    margin-bottom: 16px;
+}
+
 .modal-text-area {
     width: 100%;
     height: 120px;
@@ -834,12 +838,16 @@ background-color: #404BBF;
     letter-spacing: 0.04em;
     text-align: center;
     /* color: #2E2F42; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
     gap: 8px;
     color: #8e8f99;;
     
+}
+
+.modal-field-checkbox {
+    margin-bottom: 24px;
 }
 
 .modal-policy-link {
@@ -865,6 +873,12 @@ text-decoration: underline;
 }
 
 .modal-check:checked + .modal-check-label > .modal-check-box .check-icon{
+    border: none;
+    fill: #F4F4FD;
+    background-color: #404bbf;
+}
+
+.modal-check:checked {
     border: none;
     fill: #F4F4FD;
     background-color: #404bbf;
