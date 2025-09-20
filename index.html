@@ -484,12 +484,14 @@
           <p class="footer-subscr-text">Subscribe</p>
           <div class="footer-input-and-button">
             <form class="footer-form">
-              <input
-                type="text"
-                class="footer-email"
-                placeholder="Email"
-                id="footer-email"
-              />
+              <label for="footer-email">
+                <input
+                  type="text"
+                  class="footer-email"
+                  placeholder="Email"
+                  id="footer-email"
+                />
+              </label>
             </form>
             <button type="submit" class="footer-submit-btn">
               Subscribe
@@ -501,7 +503,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="modal-close-button">
           <svg class="close-button" width="8" height="8">
@@ -554,13 +556,13 @@
           </div>
           <div class="modal-field">
             <label
-              for="user-text"
+              for="user-comment"
               class="modal-text-area-label modal-label-input"
               >Comment</label
             >
             <textarea
-              name="user-text"
-              id="user-text"
+              name="user-comment"
+              id="user-comment"
               class="modal-text-area"
               placeholder="Text input"
             ></textarea>
@@ -568,14 +570,14 @@
           <div class="modal-field">
             <input
               type="checkbox"
-              name="policy"
-              id="policy"
-              value="accepted"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
               class="modal-check visually-hidden"
             />
-            <label for="policy" class="modal-check-label">
+            <label for="user-privacy" class="modal-check-label">
               <span class="modal-check-box">
-                <svg class="check-icon" width="16" height="16">
+                <svg class="check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
