@@ -870,6 +870,7 @@ text-decoration: underline;
 
 .check-icon {
     fill: white;
+    /* object-fit: cover; */
 }
 
 .modal-check:checked + .modal-check-label > .modal-check-box .check-icon{
@@ -878,7 +879,7 @@ text-decoration: underline;
     background-color: #404bbf;
 }
 
-.modal-check:checked {
+.modal-check:checked >.modal-check-box {
     border: none;
     fill: #F4F4FD;
     background-color: #404bbf;
