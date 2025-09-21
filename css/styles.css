@@ -873,17 +873,17 @@ text-decoration: underline;
     /* object-fit: cover; */
 }
 
-.modal-check:checked + .modal-check-label > .modal-check-box .check-icon{
+.modal-check:checked + .modal-check-label > .modal-check-box {
     border: none;
     fill: #F4F4FD;
     background-color: #404bbf;
 }
 
-.modal-check:checked >.modal-check-box {
+/* .modal-check:checked >.modal-check-box {
     border: none;
     fill: #F4F4FD;
     background-color: #404bbf;
-}
+} */
 
 .modal-send-button {
     border-radius: 4px;
