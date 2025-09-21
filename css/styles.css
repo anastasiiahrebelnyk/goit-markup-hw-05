@@ -617,18 +617,15 @@ margin-bottom: 16px;
     margin-bottom: 16px;
 }
 
-.footer-form {
-    border: 1px solid #FFFFFF;
-    border-radius: 4px;
-    max-width: 264px;
-    /* height: 40px; */
-}
 
 .footer-input-and-button {
-    display:flex;
+    display: flex;
     gap: 24px;
     align-items: center;
     justify-content: center;
+    /* border: 1px solid #FFFFFF; */
+    /* border-radius: 4px; */
+    /* max-width: 264px; */
 }
 
 .footer-email {
